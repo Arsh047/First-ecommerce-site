@@ -1,0 +1,1266 @@
+* {
+
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'San Francisco', Helvetica, Arial, "san-serif";
+}
+
+button {
+    cursor: pointer;
+}
+
+
+.wrap {
+    margin: 0 auto;
+    max-width: 1400px;
+}
+
+.container {
+    width: 1220px;
+    margin: 0 auto;
+}
+
+.navbar nav {
+    background-color: #ffffffff;
+    height: 88px;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.navbar img {
+    padding: 16px 0px;
+
+}
+
+.navbar form {
+    display: flex;
+    justify-content: flex-start;
+    padding: 15px 24px;
+
+}
+
+#check {
+    display: none;
+}
+
+.check-btn {
+    display: none;
+}
+
+.menubar ul {
+    display: flex;
+    padding: 36px 0px;
+
+}
+
+.menubar ul li a {
+    color:#787878;
+    font-size: 16px;
+    padding: 0 27px;
+}
+.menubar ul li a:hover{
+    color: #000;
+}
+
+.icon i {
+    padding: 36px 0px;
+    margin-left: 24px;
+}
+
+.search-bar {
+    
+    padding-left: 35px;
+   
+    margin-left: 22px;
+    background-size: 20px;
+    background-color: #f5f5f5;
+    border: none;
+    border-radius: 8px;
+    height: 56px;
+    width: 433px;
+}
+
+.second-nav {
+    
+    background-color: #2E2E2E;
+    height: 48px;
+}
+.second-nav a:hover,a:active {
+   color: #ededed;
+   
+}
+
+.second-nav ul {
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.second-nav ul li {
+    padding-top: 15px;
+
+}
+
+.second-nav ul li a {
+    font-size: 16px;
+    color: #909090;
+}
+
+.second-nav ul li a i {
+    margin-right: 10px;
+}
+
+.second-nav li+li:before {
+    color: #909090;
+    content: " | ";
+    padding: 0 50px;
+}
+
+.section1 {
+    line-height: 74px;
+    min-height: 632px;
+    width: 100%;
+    background-color: #211c24;
+}
+
+.first {
+    display: flex;
+    justify-content: space-between;
+    background-position: right;
+    min-height: 632px;
+    background-repeat: no-repeat;
+
+}
+
+.first-image {
+    position: relative;
+    top: 32px;
+}
+
+.mydiv {
+    padding-top: 188px;
+}
+
+.tag-line {
+
+    color: #909090;
+    font-size: 25px;
+    font-family: 'Figtree', sans-serif;
+}
+
+.iphone {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    font-size: 96px;
+    color: #ffffff;
+}
+
+.sub-line {
+    font-size: 18px;
+    color: #909090;
+
+}
+
+.shopnow {
+    color: #f5f5f5;
+    border-radius: 6px;
+    border: 1px solid white;
+    padding: 16px 56px;
+    background: none;
+}
+.mydiv button:hover{
+    background-color: white;
+    color: #000;
+}
+.third-sec ul li a:hover{
+    background-color: #f5f5f5;
+  
+}
+
+
+
+.item2 button:hover{
+    color: #eaeaea;
+    background-color: #000;
+}
+.product button:hover{
+    background-color: white;
+    color: #000;
+}
+.pro-des button:hover{
+    background-color: #000;
+    color: #f5f5f5;
+}
+.content-text button:hover{
+    background-color: #ededed;
+    color: black;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.wrapper {
+
+    border-radius: 5px;
+
+}
+
+.wrapper>div {
+
+    border-radius: 5px;
+    padding: 1em;
+
+}
+
+.wrapper {
+    display: grid;
+    height: 600px;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-areas:
+        "a a a a b b b b"
+        "a a a a b b b b"
+        "c c d d b b b b"
+        "c c d d b b b b";
+    align-items: start;
+}
+
+.item1 {
+
+    background-image: url('photos/PlayStation.svg');
+    background-repeat: no-repeat;
+    height: 328px;
+    grid-area: a;
+}
+
+.item2 {
+    background-color: #ededed;
+    background-image: url('photos/MacBookPro14.svg');
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 600px;
+    grid-area: b;
+}
+
+.item3 {
+    background-color: #ededed;
+    background-image: url('photos/headphone.svg');
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 272px;
+    grid-area: c;
+}
+
+.item4 {
+    color: #f5f5f5;
+    background-color: #353535;
+    background-image: url('photos/image36.svg');
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 272px;
+    grid-area: d;
+}
+
+.second-sec p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #909090;
+    line-height: 24px;
+    font-weight: 500;
+}
+
+
+.PlayStation {
+    top: 40%;
+    left: 40%;
+    position: relative;
+    width: 55%;
+}
+
+.Macbook {
+    left: 8%;
+    top: 40%;
+    position: relative;
+    width: 55%;
+}
+
+.Airpod {
+    top: 35%;
+    left: 35%;
+    position: relative;
+    width: 45%;
+}
+
+.vision {
+    left: 43%;
+    top: 36%;
+    position: relative;
+    width: 55%;
+}
+
+.shopnow-mac {
+    color: #080808;
+    border-radius: 6px;
+    border: 1px solid #080808;
+    padding: 16px 56px;
+    background: none;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+
+.item1 h2 {
+    font-size: 40px;
+
+}
+
+.item2 {
+    font-size: 43px;
+    line-height: 56px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+
+}
+
+.third-sec ul {
+    padding: 0px;
+    min-height: 352px;
+    background-color: #fafafa;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.section3 {
+    background-color: #fafafa;
+    width: 100%;
+
+}
+
+.third-sec ul li a {
+    line-height: 50px;
+    border-radius: 15px;
+    border: none;
+    background-color: #ededed;
+    color: #000000;
+    text-align: center;
+    display: grid;
+}
+
+.third-sec ul li a i {
+
+    color: #000000;
+    text-align: center;
+    font-size: 40px;
+}
+
+.third-sec a {
+    width: 150px;
+    top: 32%;
+    position: relative;
+    padding: 36px 20px;
+
+
+}
+
+.gl i {
+    font-size: 24px;
+    top: 3em;
+    position: relative;
+    padding: 0 10px;
+    left: 93%;
+}
+
+
+.Browse {
+    font-size: 24px;
+    position: relative;
+    top: 4em;
+}
+
+.fourth-sec {
+    min-height: 1050px;
+}
+
+.fourth-sec a {
+    font-family: 'San Francisco', Helvetica, Arial, "san-serif";
+    top: 50px;
+    position: relative;
+    /* margin-top: 8%; */
+    margin-right: 30px;
+    font-size: 18px;
+    line-height: 32px;
+    color: #000000;
+}
+
+.product {
+    border-radius: 9px;
+    margin-top: 80px;
+    height: 432px;
+    width: 268px;
+    background-color: #f6f6f6;
+}
+
+.product i {
+    font-size: 32px;
+    float: right;
+    padding: 20px 20px;
+}
+
+.product-img {
+    left: 50px;
+    position: relative;
+    top: 70px;
+}
+
+.product-description {
+    font-weight: 700;
+    line-height: 24px;
+    font-size: 16px;
+    top: 100px;
+    position: relative;
+    text-align: center;
+}
+
+.product-price {
+    font-weight: 600;
+    text-align: center;
+    position: relative;
+    top: 110px;
+}
+
+.Buynow {
+    border-radius: 8px;
+    padding: 12px 64px;
+    background: #080808;
+    color: #ffffff;
+    position: relative;
+    top: 120px;
+    left: 40px;
+}
+
+.product-main {
+    justify-content: space-between;
+    display: flex;
+}
+
+.fullwidth {
+    width: 100%;
+}
+
+.section4 {
+    min-height: 600px;
+}
+
+.pro-1 {
+    max-width: 316px;
+
+}
+
+.pro-img2 {
+    left: 50px;
+    position: relative;
+    top: -300px;
+}
+
+.pro-des {
+    line-height: 70px;
+    max-width: 250px;
+    left: 20px;
+    position: relative;
+    width: 100%;
+}
+
+.pro-des h1 {
+    font-size: 33px;
+}
+
+.pro-des p {
+    font-size: 14px;
+    color: #909090;
+    line-height: 24px;
+}
+
+.pro-main {
+    justify-content: space-between;
+    margin-top: 40px;
+    display: flex;
+
+}
+
+.productimg {
+    height: 390px;
+
+}
+
+.Discount {
+    font-size: 24px;
+    font-weight: 600;
+    position: relative;
+    top: 40px;
+    font-size: 24px;
+
+}
+
+.section6 {
+    display: flex;
+    min-height: 448px;
+    background: linear-gradient(100deg, #2E2E2E 42.36%, #000 98.65%);
+}
+
+.div1 {
+    width: 30%;
+}
+
+.img01 {
+    position: relative;
+    left: 20%;
+}
+
+.img02 {
+    position: relative;
+    left: 8%;
+    top: -5%;
+
+}
+
+.img03 {
+    position: relative;
+
+    top: -5%;
+}
+
+.div2 {
+    color: #eaeaea;
+    text-align: center;
+    width: 40%;
+
+}
+
+.div3 {
+    width: 30%;
+}
+
+.content-text {
+
+    line-height: 60px;
+    position: relative;
+    top: 30%;
+}
+
+.content-text h1 {
+    color: #ffffff;
+    font-size: 72px;
+}
+
+.content-text p {
+    color: #787878;
+    font-size: 16px;
+}
+
+.content-text button {
+    position: relative;
+    top: 50px;
+}
+
+.img04 {
+    position: relative;
+    left: 51%;
+
+}
+
+.img05 {
+    /* position: relative; */
+    width: 100%;
+    right: 1px;
+}
+
+footer {
+    background-color: #000;
+}
+
+footer h2 {
+    position: relative;
+    left: 40px;
+    font-family: 'San Francisco', Helvetica, Arial, "san-serif";
+    font-weight: 800px;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+footer p {
+    font-family: 'San Francisco', Helvetica, Arial, "san-serif";
+    ;
+    position: relative;
+    top: 40px;
+    line-height: 25px;
+    font-size: 14px;
+    color: #CFCFCF;
+}
+
+footer a {
+    position: relative;
+    top: 40px;
+    margin-top: 30px;
+    color: #f5f5f5;
+    line-height: 32px;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.foot {
+    padding: 80px;
+    display: flex;
+}
+
+.footer-div1 {
+    width: 40%;
+}
+
+.footer-div2 {
+    width: 30%;
+}
+
+.footer-div2 {
+    width: 30%;
+}
+
+.footer-icon i {
+    color: #ededed;
+    margin-right: 30px;
+}
+
+.footer-icon {
+    position: relative;
+    top: 80%;
+}
+
+.product i {
+    color: #909090;
+}
+
+
+
+@media (max-width:480px) {
+    .wrapper {
+        display: grid;
+        height: 600px;
+        grid-template-columns: repeat(8, 1fr);
+        grid-template-areas:
+            "c c c c c c c c"
+            "d d d d d d d d"
+            "a a a a a a a a"
+            "b b b b b b b b"
+        ;
+        align-items: start;
+    }
+
+
+
+    .icon {
+        display: none;
+    }
+
+    .second-nav {
+        display: none;
+    }
+
+
+    .menubar .check-btn {
+        display: block;
+        margin: 37px -750px;
+        line-height: 30px;
+
+    }
+
+    nav ul {
+        position: fixed;
+        width: 100%;
+        height: 400px;
+        color: rgb(0, 0, 0);
+        background: white;
+        top: 77px;
+        left: -1892px;
+        text-align: center;
+        transition: all .5s;
+        margin: 0;
+
+    }
+
+    nav ul li a {
+
+        color: white;
+    }
+
+    nav ul li {
+        display: block;
+
+
+    }
+
+    a:hover {
+        background: none;
+        color: red;
+
+    }
+
+    #check:checked~ul {
+        left: 0;
+
+    }
+
+    .fa-bars {
+        top: -25px;
+        right: -10%;
+        position: relative;
+        float: right;
+        font-size: 80px;
+
+    }
+
+    .navbar {
+        height: 120px;
+    }
+
+    #search-hide {
+        display: none;
+    }
+
+    .navbar nav {
+        background-color: #ffffffff;
+        height: 110px;
+    }
+
+    .mydiv {
+        text-align: center;
+        padding-top: 188px;
+    }
+
+    .tag-line {
+        color: #909090;
+        font-size: 50px;
+        font-family: 'Figtree', sans-serif;
+    }
+
+    .iphone {
+        line-height: 183px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 200;
+        font-size: 196px;
+        color: #ffffff;
+    }
+
+    .sub-line {
+        left: 13%;
+        position: relative;
+        width: 74%;
+        font-size: 48px;
+        color: #909090;
+    }
+
+
+    .mydiv .shopnow {
+        height: 200px;
+        margin-top: 50px;
+        font-size: 56px;
+        color: #f5f5f5;
+        border-radius: 6px;
+        border: 3px solid white;
+        padding: 46px 97px 46px 97px;
+        background: none;
+    }
+
+    .first {
+        display: flex;
+        justify-content: space-between;
+        background-position: bottom;
+        min-height: 632px;
+        background-repeat: no-repeat;
+        flex-direction: column;
+
+
+    }
+
+    .first-image {
+        position: relative;
+        left: 12%;
+        top: 32px;
+    }
+
+    .iphone-title {
+        width: 900px;
+    }
+
+    .second-sec {
+        min-height: 4600px;
+    }
+
+    .wrapper h1 {
+        font-size: 100px;
+    }
+
+    .wrapper p {
+        font-size: 50px;
+    }
+
+    .item3 {
+        width: 100%;
+        min-height: 1150px;
+        background-size: 600px;
+        background-color: #ededed;
+        background-image: url('photos/hero__gnfk5g59t0qe_xlarge_2x1.svg');
+        background-repeat: no-repeat;
+        background-position-x: 50%;
+        background-position-y: 15%;
+        grid-area: c;
+    }
+    
+    .item4 br{
+        display: none;
+    }
+
+    .Airpod {
+        line-height: 180px;
+        text-align: center;
+        top: 68%;
+        left: 16%;
+        position: relative;
+        width: 70%;
+    }
+
+    .item4 {
+        background-size: 800px;
+        background-position-x: 50%;
+        background-position-y: 33%;
+        min-height: 1150px;
+        color: #f5f5f5;
+        background-color: #353535;
+        background-image: url('photos/visionpro-mobile.svg');
+        background-repeat: no-repeat;
+
+        grid-area: d;
+    }
+    body{
+        overflow-x: hidden;
+
+    }
+
+    .vision {
+        line-height: 230px;
+        text-align: center;
+        left: 12%;
+        top: 60%;
+        position: relative;
+        width: 79%;
+    }
+
+    .item1 {
+        height: 1150px;
+        background-image: url('photos/playstation-mobile.svg');
+        background-repeat: no-repeat;
+        /* height: 328px; */
+        grid-area: a;
+        background-size: 697px;
+        background-position-x: 50%;
+        background-position-y: 8%;
+    }
+
+    .PlayStation {
+        /* line-height: 146px; */
+        text-align: center;
+        top: 66%;
+        left: 13%;
+        position: relative;
+        width: 77%;
+    }
+
+    .PlayStation p {
+        line-height: 70px;
+    }
+
+    .item2 {
+        background-size: 907px;
+        background-position-x: 50%;
+        background-position-y: 8%;
+        min-height: 1150px;
+        background-color: #ededed;
+        background-image: url('photos/MacBookPro-bg.svg');
+        background-repeat: no-repeat;
+        /* background-position: right; */
+        /* height: 600px; */
+        grid-area: b;
+    }
+
+    .Macbook p {
+        line-height: 70px;
+    }
+
+    .Macbook {
+        line-height: 100px;
+        text-align: center;
+        left: 12%;
+        top: 53%;
+        position: relative;
+        width: 76%;
+    }
+
+    .Macbook .shopnow-mac {
+        margin-top: 24px;
+        width: 700px;
+        height: 160px;
+        font-size: 75px;
+        color: #080808;
+        border-radius: 6px;
+        border: 1px solid #080808;
+        padding: 16px 56px;
+        background: none;
+    }
+
+    .third-sec ul {
+        grid-template-columns: 1fr 1fr;
+        display: grid;
+        gap: 63px;
+    }
+
+    .third-sec ul li {
+        position: relative;
+        left: 4%;
+    }
+
+    .third-sec ul li a {
+        font-size: 50px;
+        height: 400px;
+        width: 500px;
+        /* padding: 50px 100px 50px 94px; */
+        line-height: 50px;
+        border-radius: 15px;
+        border: none;
+        background-color: #ededed;
+        color: #000000;
+        text-align: center;
+        display: grid;
+    }
+
+    .third-sec ul li a i {
+        margin-top: 49px;
+        color: #000000;
+        text-align: center;
+        font-size: 130px;
+    }
+
+    .Browse {
+        left: 24px;
+        font-size: 74px;
+        position: relative;
+        top: 1em;
+    }
+
+    .gl i {
+        font-size: 76px;
+        top: 0em;
+        position: relative;
+        padding: 0 10px;
+        left: 82%;
+    }
+
+    .third-sec {
+        min-height: 1780px;
+    }
+
+    .product-main {
+        grid-template-columns: 1fr 1fr;
+        justify-content: space-between;
+        display: grid;
+    }
+
+    .product {
+        top: 10%;
+        left: 12%;
+        position: relative;
+        border-radius: 9px;
+        margin-top: 80px;
+        height: 785px;
+        width: 516px;
+        background-color: #f6f6f6;
+    }
+
+
+
+    .product-description {
+        font-weight: 700;
+        line-height: 35px;
+        font-size: 31px;
+        top: 17%;
+        position: relative;
+        text-align: center;
+    }
+
+    .product-img {
+        width: 73%;
+        left: 50px;
+        position: relative;
+        top: 70px;
+    }
+
+    .product-price {
+        font-size: 58px;
+        font-weight: 600;
+        text-align: center;
+        position: relative;
+        top: 18%;
+    }
+
+    .Buynow {
+        font-size: 40px;
+        height: 85px;
+        width: 299px;
+        border-radius: 8px;
+        padding: 12px 64px;
+        background: #080808;
+        color: #ffffff;
+        position: relative;
+        top: 20%;
+        left: 23%;
+    }
+
+    .fourth-sec a {
+        top: 2em;
+        font-size: 45px;
+        position: relative;
+        left: 6%;
+    }
+
+    .fourth-sec {
+        min-height: 226em;
+    }
+
+    .productimg img {
+        width: 100%;
+    }
+
+    .pro-1 {
+        left: 0%;
+        position: relative;
+        width: 100%;
+        min-height: 2100px;
+    }
+
+    #pp,
+    #sg,
+    #mp {
+        display: none;
+    }
+
+    .productimg img {
+        left: 14%;
+        position: relative;
+        width: 85%;
+    }
+
+    .pro-des h1 {
+        font-size: 120px;
+    }
+
+    .pro-des {
+        width: 100%;
+        text-align: center;
+        top: 50%;
+        line-height: 196px;
+        /* left: 17%; */
+        position: relative;
+    }
+
+    .pro-des p {
+        font-size: 44px;
+        color: #909090;
+        line-height: 86px;
+    }
+
+    .shopnow-mac {
+        font-size: 50px;
+        height: 150px;
+        width: 501px;
+        color: #080808;
+        border-radius: 6px;
+        border: 4px solid #080808;
+        padding: 16px 56px;
+        background: none;
+    }
+
+    .Discount {
+        left: 6%;
+        font-size: 24px;
+        font-weight: 600;
+        position: relative;
+        top: 100px;
+        font-size: 66px;
+    }
+
+    .section4 {
+        min-height: 125em;
+    }
+
+    .section6 {
+        flex-direction: column;
+        display: flex;
+        min-height: 448px;
+        background: linear-gradient(100deg, #2E2E2E 42.36%, #000 98.65%);
+    }
+
+    .div1 {
+
+        display: flex;
+        width: 100%;
+    }
+
+    .img01 {
+        position: relative;
+        left: 34%;
+    }
+
+    .img02 {
+        position: relative;
+        left: 62%;
+        /* top: -5%; */
+    }
+
+    .img03 {
+        right: 38%;
+        position: relative;
+        top: -5%;
+    }
+
+    .div2 {
+        color: #eaeaea;
+        text-align: center;
+        width: 100%;
+    }
+
+    .content-text h1 {
+        top: 44px;
+        position: relative;
+        color: #ffffff;
+        font-size: 129px;
+    }
+
+    .content-text p {
+        top: 110px;
+        position: relative;
+        color: #787878;
+        font-size: 44px;
+    }
+
+    .div3 {
+        width: 100%;
+    }
+
+    .img04 {
+        position: relative;
+        left: 51%;
+    }
+
+    .img05 {
+        /* position: relative; */
+        width: 100%;
+        right: 1px;
+    }
+
+    .content-text button {
+        font-size: 40px;
+        height: 122px;
+        width: 417px;
+        position: relative;
+        top: 160px;
+    }
+
+    .foot {
+        flex-direction: column;
+        padding: 80px;
+        display: flex;
+    }
+
+    .footer-div1 {
+        text-align: center;
+        width: 100%;
+    }
+
+    .footer-div2 {
+        margin-bottom: 50px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .footer-div3 {
+        margin-bottom: 50px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .footer-icon i {
+        font-size: 60px;
+        color: #ededed;
+        margin-right: 100px;
+    }
+
+    .footer-div1 img {
+        width: 250px;
+    }
+
+    footer p {
+        font-family: 'San Francisco', Helvetica, Arial, "san-serif";
+        position: relative;
+        top: 40px;
+        line-height: 72px;
+        font-size: 40px;
+        color: #CFCFCF;
+    }
+
+    footer h2 {
+        top: 37px;
+        position: relative;
+        left: 13px;
+        font-family: 'San Francisco', Helvetica, Arial, "san-serif";
+        font-weight: 800px;
+        color: #ffffff;
+        font-size: 46px;
+    }
+
+    footer a {
+        position: relative;
+        top: 40px;
+        margin-top: 30px;
+        color: #f5f5f5;
+        line-height: 93px;
+        font-size: 38px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .footer-icon {
+        left: 83px;
+        position: relative;
+        top: 86em;
+    }
+
+    .menubar ul {
+       display: block;
+        padding: 36px 0px;
+    }
+
+    .menubar ul li a {
+        line-height: 89px;
+        /* display: flex; */
+        color: #2E2E2E;
+        font-size: 51px;
+        padding: 0 27px;
+    }
+}
+
